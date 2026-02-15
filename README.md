@@ -33,7 +33,7 @@ Following 6 Models were used for the classification purposes
 | :--- | :--- |
 | **Logistic Regression** | Provided a solid baseline with high recall, effectively identifying positive cases, though it struggled slightly with complex non-linear relationships compared to tree-based models. |
 | **Decision Tree** | Achieved excellent accuracy and interpretability but showed a slight tendency towards overfitting compared to the Random Forest model. |
-| **kNN** | Performance was highly dependent on feature scaling. It performed well but was computationally slower during inference compared to Logistic Regression. |
+| **KNN** | Performance was highly dependent on feature scaling. It performed well but was computationally slower during inference compared to Logistic Regression. |
 | **Naive Bayes** | Gave the lowest accuracy among the models, likely due to the strong independence assumption which may not hold true for correlated symptoms like Polyuria and Polydipsia. |
 | **Random Forest (Ensemble)** | **Best Performer.** Achieved the highest accuracy and AUC score. The ensemble approach effectively reduced variance and handled feature interactions robustly. |
 | **XGBoost (Ensemble)** | Performed nearly as well as Random Forest with very high precision and recall. It effectively handled the imbalanced aspects of the data through its boosting mechanism. |
